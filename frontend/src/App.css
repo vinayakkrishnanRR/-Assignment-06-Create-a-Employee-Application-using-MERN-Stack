@@ -1,0 +1,91 @@
+body{
+  background-image: url('https://img.freepik.com/free-photo/elevated-view-laptop-stationeries-yellow-backdrop_23-2147880496.jpg?w=1060&t=st=1700981308~exp=1700981908~hmac=ab1468e531f1dceee788909d51bd4c1d283f756d98973b3e72bfb7629cd4b8a9');
+  background-size: cover;  
+  overflow: hidden;
+}
+#head{
+  color:rgb(0, 0, 0);
+  text-align: center;
+  font-family: Georgia, 'Quicksand', Times, serif;
+}
+#log{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.loginform{    
+  width: 25%;
+  padding: 2.5%;
+  border: 1px solid rgba(0, 120, 150, 0.178);
+  background-color: rgba(240, 234, 226, 0.568);
+  border-radius: 5px;
+  margin-top: 100px;
+  justify-content: center;
+}
+#sign{   
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+#signhead{
+  text-align: center;
+  font-size: 150%;
+  font-family: Georgia, 'Quicksand', Times, serif;
+  color: rgb(137, 154, 159)
+}
+#signform{ 
+  margin-top: 1%;
+  width:60%; 
+  padding: 2.5%;
+  border: 1px solid rgb(4, 119, 119);
+  background-color: rgba(234, 250, 215, 0.671);
+  border-radius: 5px;
+  justify-content: center;   
+} 
+.textfields{   
+  font-family: Georgia, 'Quicksand', Times, serif;
+  background-color: white;
+}
+.text-full{
+  width: 100%;
+}
+#submit{
+  width:100%;
+}
+.table-container {
+  width:80%;
+  margin-left: 8.5%;
+  margin-top: 2.5%;
+} 
+.employee-table {
+  width: 50%; 
+  height:50%;
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 0, 0);
+  margin-top: 20px;
+}
+.table-cell {
+  border: 1px solid rgb(0, 0, 0); 
+  padding: 8px; 
+  text-align: left; 
+  font-family: Georgia, 'Quicksand', Times, serif;
+}
+.employee-table th {
+  background-color: rgb(2, 24, 34);
+  color: white;
+  font-size: larger;
+  font-family: Georgia, 'Quicksand', Times, serif;
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 102, 128);
+  background-color: beige;
+}
